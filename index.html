@@ -67,6 +67,9 @@
   .pillar p{color:var(--text-secondary);font-size:15px;line-height:1.7}
   .work-note{margin:48px auto 0;padding:24px 28px;max-width:780px;text-align:center;font-style:italic;color:var(--text-secondary);font-size:15px;line-height:1.7;border-top:1px solid var(--border);border-bottom:1px solid var(--border)}
   .founder-block{display:flex;flex-direction:column;gap:36px;max-width:880px;margin:0 auto;align-items:center}
+  .founder-photo-zone{display:flex;justify-content:center;margin-bottom:8px}
+  .founder-photo-zone img{width:140px;height:140px;border-radius:50%;border:2px solid rgba(212,175,55,0.44);object-fit:cover;object-position:center top}
+  .founder-monogram{width:140px;height:140px;border-radius:50%;background:linear-gradient(135deg,#1a1614,#2a2420);border:2px solid rgba(212,175,55,0.44);display:flex;align-items:center;justify-content:center;font-family:'Cormorant Garamond',serif;font-size:52px;font-weight:600;color:var(--gold);letter-spacing:-3px}
   .founder-text{width:100%;text-align:left}
   .founder-text .name-loc{font-size:13px;color:var(--gold);letter-spacing:0.12em;text-transform:uppercase;margin-bottom:14px}
   .founder-text h3{font-size:32px;margin-bottom:18px}
@@ -180,6 +183,21 @@
 <div class="section-eyebrow">About Seth</div>
 <h2 class="section-title">Securities Attorney. Hundreds of funds built. <em>Anti-guru by deliberate brand move.</em></h2>
 <div class="founder-block">
+<!--
+  PHOTO SWAP - replace the monogram block below with an img tag when Seth's headshot is available.
+  Priority order:
+    1. sethbradleyesq.com About page headshot
+    2. raise.law/about-us/team/ Seth Bradley team photo
+    3. LinkedIn profile photo @sethbradleyesq
+    4. Raise the Bar Radio podcast cover artist photo
+  Remove the .founder-monogram div and uncomment the img block when photo is confirmed.
+-->
+<div class="founder-photo-zone">
+  <!-- UNCOMMENT AND FILL src WHEN PHOTO IS AVAILABLE:
+  <img src="seth-headshot.jpg" alt="Seth Bradley, Esq. - Securities Attorney, Founder of RaiseLaw, CLO at Tribevest">
+  -->
+  <div class="founder-monogram">SB</div>
+</div>
 <div class="founder-text">
 <div class="name-loc">Seth Bradley, Esq. &middot; San Diego, CA</div>
 <h3>About Seth</h3>
